@@ -102,36 +102,59 @@ a {
 }
 
 
-.body_pt1_ct_area{
-  padding-bottom: 200px; 
+.body_poto1_area {
+position: relative;  
+}         
+
+
+
+
+.body_pohto1{
+  height: 40vw; 
+  width: 60vw;
+  position:absolute;
+	right:0px;
+	
+
+}
+
+.body_poto1_area p{
+  position: absolute;
+  top: 120px;
+  left: 15vw;
+
+}
+
+.body_poto1_area{
+  width: 100%;
 
 }
 
 .body_poto_top_tt{
-  font-family:serif;
-  font-size: 3vw;
-  font-weight: 700;
   
-}
+  font-size: 2vw;
+  font-weight: 800;
+} 
+.body_poto_top_ct {
+  font-size: 1vw;
+  font-weight: 800;
+  
+  width: 50%; /* 幅は親要素の80% */
+ 
+  margin-top: 15%;
 
-.by_pt1_ct_back_tt{
+}     
+ 
+                     
+
+
+.body_pt1_ct_back_tt{
   font-size: 10vw;
-  font-weight: 1000;
+  font-weight: 800;
   opacity: 0.1;
-  position      : absolute;            
-  display       : inline-block;        
+        
 }
-.body_poto1_text{
-  font-family:serif;
-  font-weight: 700;
-  word-break: keep-all;
-  padding-top: 100px;
-  line-height: 1;
-  display       :inline-block;         
-  position      :absolute;             
 
-
-}
 .footer{
  
   bottom: 0;
